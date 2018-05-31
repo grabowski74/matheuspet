@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tags</title>
+        <title>Atividade-missão Inspiração</title>
         
         <style>
 
@@ -61,9 +61,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.41" />
         
-        <link href="https://grabowski74.github.io/matheuspet/tags/index.xml" rel="alternate" type="application/rss+xml" title="Matheus" />
-        <link href="https://grabowski74.github.io/matheuspet/tags/index.xml" rel="feed" type="application/rss+xml" title="Matheus" />
-        
 
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Tags</a>
+                    <a class="navbar-brand visible-xs" href="#">Atividade-missão Inspiração</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -138,9 +135,7 @@
 
 <main>
 
-    <h2>Tags</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -149,58 +144,89 @@
     
     
 
-    <h4><a href="/matheuspet/tags/go/">Go</a></h4>
+    <h4><a href="/matheuspet/post/a/">Atividade-missão Inspiração</a></h4>
     <h5>May 31, 2018</h5>
+    
+    <a href="https://grabowski74.github.io/matheuspet/tags/go"><kbd class="item-tag">go</kbd></a>
+    
+    <a href="https://grabowski74.github.io/matheuspet/tags/golang"><kbd class="item-tag">golang</kbd></a>
+    
+    <a href="https://grabowski74.github.io/matheuspet/tags/hugo"><kbd class="item-tag">hugo</kbd></a>
+    
+    <a href="https://grabowski74.github.io/matheuspet/tags/themes"><kbd class="item-tag">themes</kbd></a>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/matheuspet/tags/golang/">Golang</a></h4>
-    <h5>May 31, 2018</h5>
-    
+<h2 id="introduction">Introduction</h2>
+
+<p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
+
+<p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
+
+<p>In this tutorial, commands that you enter will start with the &ldquo;$&rdquo; prompt. The output will follow. Lines that start with &ldquo;#&rdquo; are comments that I&rsquo;ve added to explain a point. When I show updates to a file, the &ldquo;:wq&rdquo; on the last line means to save the file.</p>
+
+<h2 id="some-definitions">Some Definitions</h2>
+
+<p>There are a few concepts that you need to understand before creating a theme.</p>
+
+<h3 id="skins">Skins</h3>
+
+<p>Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colors and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.</p>
+
+<p>You have two ways to create a skin. The simplest way is to create it in the <code>layouts/</code> directory. If you do, then you don’t have to worry about configuring Hugo to recognize it. The first place that Hugo will look for rules and files is in the <code>layouts/</code> directory so it will always find the skin.</p>
+
+<p>Your second choice is to create it in a sub-directory of the <code>themes/</code> directory. If you do, then you must always tell Hugo where to search for the skin. It’s extra work, though, so why bother with it?</p>
+
+<p>The difference between creating a skin in <code>layouts/</code> and creating it in <code>themes/</code> is very subtle. A skin in <code>layouts/</code> can’t be customized without updating the templates and static files that it is built from. A skin created in <code>themes/</code>, on the other hand, can be and that makes it easier for other people to use it.</p>
+
+<p>The rest of this tutorial will call a skin created in the <code>themes/</code> directory a theme.</p>
+
+<p>Note that you can use this tutorial to create a skin in the <code>layouts/</code> directory if you wish to. The main difference will be that you won’t need to update the site’s configuration file to use a theme.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/anCO16et1p0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+</div>
 
 </div>
-  <div class="item">
-
-    
-    
-    
 
     
     
 
-    <h4><a href="/matheuspet/tags/hugo/">Hugo</a></h4>
-    <h5>May 31, 2018</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
     
 
     
-    
 
-    <h4><a href="/matheuspet/tags/themes/">Themes</a></h4>
-    <h5>May 31, 2018</h5>
-    
+        <h4 class="page-header">Comments</h4>
 
-</div>
- 
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "thpet" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
 
 </main>
-
-
 
         <footer>
 

@@ -3,17 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://grabowski74.github.io/matheuspet/post/c/</loc>
+    <lastmod>2018-05-31T12:02:25-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/post/b/</loc>
+    <lastmod>2018-05-31T12:02:13-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/post/a/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://grabowski74.github.io/matheuspet/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://grabowski74.github.io/matheuspet/tags/go/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/tags/golang/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/tags/hugo/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://grabowski74.github.io/matheuspet/</loc>
+    <lastmod>2018-05-31T12:02:25-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/post/</loc>
+    <lastmod>2018-05-31T12:02:25-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://grabowski74.github.io/matheuspet/tags/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/tags/themes/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

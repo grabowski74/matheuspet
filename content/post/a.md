@@ -2,7 +2,7 @@
 title: "Atividade-missão Inspiração"
 date: 2018-05-31
 tags: ["go", "golang", "hugo", "themes"]
-draft: true
+draft: false
 ---
 
 ## Introduction
