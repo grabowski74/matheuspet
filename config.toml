@@ -1,0 +1,77 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Matheus"
+theme = "minimal-master"
+disqusShortname = "thpet" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Matheus Silva Araújo"
+    description = "Seleção do PET-Computação"
+    githubUsername = "#"
+    accent = "blue"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Missões"
+    weight = 2
+
+[[menu.main]]
+    url = "/about/about"
+    name = "Sobre"
+    weight = 3
+
+[[menu.main]]
+    url = "http://www.dsc.ufcg.edu.br/~pet/"
+    name = "PET"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:me@example.com"
+    name = "google"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/username/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/username/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/username/"
+    name = "youtube"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.facebook.com/username/"
+    name = "facebook"
+    weight = 5
+
+ [[menu.icon]]
+    url = "https://www.instagram.com/username/"
+    name = "instagram"
+    weight = 6
+
+[[menu.icon]]
+    url = "https://www.spotify.com/username/"
+    name = "spotify"
+    weight = 7
