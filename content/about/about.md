@@ -1,7 +1,9 @@
 ---
 title: "Sobre o Autor"
 date: 2018-05-31T12:32:39-03:00
-draft: true
+draft: false
 ---
 
-dfhsfusbwbcueucbweucbuwebusdbvusbvusbduvbsuvbsubvu eueu ub ubu dfwuusudsbubu budbfudsbudbvusbdb b  bsudbudbubsudbvusdvrbvusbirveyrbyeb brbvevubfuvbud
+### hey, nice to meet you
+
+Olá, me chamo Matheus, tenho 21 anos, e sou estudante do curso de Ciência da Computação pela Universidade Federal de Campina Grande. 

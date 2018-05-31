@@ -1,33 +1,26 @@
 ---
 title: "Atividade-missão Inspiração"
 date: 2018-05-31
-tags: ["go", "golang", "hugo", "themes"]
+tags: ["PET", "Computação", "Educação"]
+author: "Matheus Araújo"
 draft: false
 ---
 
-## Introduction
+Estudar nem sempre é fácil. Na verdade, na grande maioria das vezes não é nada fácil, e a maioria de nós seres humanos não temos o dom de sermos autodidatas. Pensando nisso, existe o Programa de Educação Tutorial, o PET.
 
-This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
+## O que é o PET?
 
-We'll start with creating a new site with a very basic template. Then we'll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.
+O PET destina-se a apoiar grupos de alunos que demonstrem potencial, interesse e habilidades destacadas em cursos de graduação das Instituições de Ensino Superior. O programa é composto por grupos tutoriais de aprendizagem e busca propiciar aos alunos, sob a orientação de um professor tutor, condições para a realização de atividades extracurriculares, que complementem a sua formação acadêmica, procurando atender mais plenamente às necessidades do próprio curso de graduação e/ou ampliar e aprofundar os objetivos e os conteúdos programáticos que integram sua grade curricular. Espera-se, assim, proporcionar a melhoria da qualidade acadêmica dos cursos de graduação apoiados pelo PET.
 
-In this tutorial, commands that you enter will start with the "$" prompt. The output will follow. Lines that start with "#" are comments that I've added to explain a point. When I show updates to a file, the ":wq" on the last line means to save the file.
-## Some Definitions
+## PET Computação
 
-There are a few concepts that you need to understand before creating a theme.
+O Grupo PET Computação da UFCG (outrora Universidade Federal da Paraíba - UFPB, Campus II) foi implantado em abril de 1992 sob a tutoria da Profa. Dra. Maria de Fátima Camêlo, que permaneceu durante quase seis anos. Nesse período, as atividades centrais consistiam em minicursos, pesquisas científicas e seminários. Atualmente, o grupo segue sob tutoria da Prof. Dr. Marcelo Alves de Barros, professor do curso de Ciência da Computação (UFCG) e criador do Atelier de Computação e Cultura da UFCG.
+O Grupo PET Computação da UFCG continua trabalhando com a tríade Ensino, Pesquisa e Extensão, de maneira indissociável, para atingir o principal objetivo do programa: melhorar o curso no qual está inserido e a sociedade como um todo.
+O PET Computação marcou a vida de vários alunos, ex-alunos, professores e funcionários do curso de Ciência da Computação da UFCG, e a seguir apresentaremos depoimentos de algumas pessoas que passaram pelo PET:
 
-### Skins
+{{<youtube hRezta6mdFI>}}
 
-Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colors and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.
+### Seu comentário é importante!
 
-You have two ways to create a skin. The simplest way is to create it in the ```layouts/``` directory. If you do, then you don’t have to worry about configuring Hugo to recognize it. The first place that Hugo will look for rules and files is in the ```layouts/``` directory so it will always find the skin.
+Deixe seu feedback sobre o conteúdo divulgado, e ajude-nos a melhorar a trajetória acadêmica de vários alunos, professores e gestores. :D
 
-Your second choice is to create it in a sub-directory of the ```themes/``` directory. If you do, then you must always tell Hugo where to search for the skin. It’s extra work, though, so why bother with it?
-
-The difference between creating a skin in ```layouts/``` and creating it in ```themes/``` is very subtle. A skin in ```layouts/``` can’t be customized without updating the templates and static files that it is built from. A skin created in ```themes/```, on the other hand, can be and that makes it easier for other people to use it.
-
-The rest of this tutorial will call a skin created in the ```themes/``` directory a theme.
-
-Note that you can use this tutorial to create a skin in the ```layouts/``` directory if you wish to. The main difference will be that you won’t need to update the site’s configuration file to use a theme.
-
-{{<youtube anCO16et1p0>}}

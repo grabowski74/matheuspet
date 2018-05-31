@@ -6,10 +6,19 @@
     <description>Recent content on Matheus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 May 2018 12:02:25 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 31 May 2018 12:32:39 -0300</lastBuildDate>
     
 	<atom:link href="https://grabowski74.github.io/matheuspet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sobre o Autor</title>
+      <link>https://grabowski74.github.io/matheuspet/about/about/</link>
+      <pubDate>Thu, 31 May 2018 12:32:39 -0300</pubDate>
+      
+      <guid>https://grabowski74.github.io/matheuspet/about/about/</guid>
+      <description>hey, nice to meet you Olá, me chamo Matheus, tenho 21 anos, e sou estudante do curso de Ciência da Computação pela Universidade Federal de Campina Grande.</description>
+    </item>
     
     <item>
       <title>Atividade-missão Liderança</title>
@@ -35,8 +44,8 @@
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://grabowski74.github.io/matheuspet/post/a/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <description>Estudar nem sempre é fácil. Na verdade, na grande maioria das vezes não é nada fácil, e a maioria de nós seres humanos não temos o dom de sermos autodidatas. Pensando nisso, existe o Programa de Educação Tutorial, o PET.
+O que é o PET? O PET destina-se a apoiar grupos de alunos que demonstrem potencial, interesse e habilidades destacadas em cursos de graduação das Instituições de Ensino Superior. O programa é composto por grupos tutoriais de aprendizagem e busca propiciar aos alunos, sob a orientação de um professor tutor, condições para a realização de atividades extracurriculares, que complementem a sua formação acadêmica, procurando atender mais plenamente às necessidades do próprio curso de graduação e/ou ampliar e aprofundar os objetivos e os conteúdos programáticos que integram sua grade curricular.</description>
     </item>
     
   </channel>

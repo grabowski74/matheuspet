@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://grabowski74.github.io/matheuspet/about/about/</loc>
+    <lastmod>2018-05-31T12:32:39-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://grabowski74.github.io/matheuspet/post/c/</loc>
     <lastmod>2018-05-31T12:02:25-03:00</lastmod>
   </url>
@@ -18,31 +23,37 @@
   </url>
   
   <url>
+    <loc>https://grabowski74.github.io/matheuspet/about/</loc>
+    <lastmod>2018-05-31T12:32:39-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://grabowski74.github.io/matheuspet/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://grabowski74.github.io/matheuspet/tags/go/</loc>
+    <loc>https://grabowski74.github.io/matheuspet/tags/computa%C3%A7%C3%A3o/</loc>
     <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://grabowski74.github.io/matheuspet/tags/golang/</loc>
-    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://grabowski74.github.io/matheuspet/tags/hugo/</loc>
+    <loc>https://grabowski74.github.io/matheuspet/tags/educa%C3%A7%C3%A3o/</loc>
     <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://grabowski74.github.io/matheuspet/</loc>
-    <lastmod>2018-05-31T12:02:25-03:00</lastmod>
+    <lastmod>2018-05-31T12:32:39-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://grabowski74.github.io/matheuspet/tags/pet/</loc>
+    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,12 +65,6 @@
   
   <url>
     <loc>https://grabowski74.github.io/matheuspet/tags/</loc>
-    <lastmod>2018-05-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://grabowski74.github.io/matheuspet/tags/themes/</loc>
     <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
