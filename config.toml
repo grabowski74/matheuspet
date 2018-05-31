@@ -1,5 +1,6 @@
-baseURL = "http://example.com/"
+baseURL = "https://grabowski74.github.io/matheuspet/"
 languageCode = "en-us"
+publishDir = "docs"
 title = "Matheus"
 theme = "minimal-master"
 disqusShortname = "thpet" # delete this to disable disqus comments
