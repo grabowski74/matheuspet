@@ -43,12 +43,12 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:matheus.araujo@ccc.ufcg.edu.br"
     name = "google"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/grabowski74/"
     name = "github"
     weight = 2
 
@@ -58,21 +58,26 @@ googleAnalytics = ""
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.youtube.com/channel/UCmO6IflVC626XI790VSO7MA?view_as=subscriber"
     name = "youtube"
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.facebook.com/username/"
+    url = "https://www.facebook.com/matheusa4/"
     name = "facebook"
     weight = 5
 
  [[menu.icon]]
-    url = "https://www.instagram.com/username/"
+    url = "https://www.instagram.com/th1araujo/"
     name = "instagram"
     weight = 6
 
 [[menu.icon]]
-    url = "https://www.spotify.com/username/"
+    url = "https://open.spotify.com/user/12142437138"
     name = "spotify"
     weight = 7
+
+[[menu.icon]]
+    url = "https://www.last.fm/user/th1araujo"
+    name = "lastfm"
+    weight = 8
