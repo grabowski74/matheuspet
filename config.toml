@@ -45,39 +45,39 @@ googleAnalytics = ""
 [[menu.icon]]
     url = "mailto:matheus.araujo@ccc.ufcg.edu.br"
     name = "google"
-    weight = 1
+    weight = 8
 
 [[menu.icon]]
     url = "https://github.com/grabowski74/"
     name = "github"
-    weight = 2
+    weight = 7
 
 [[menu.icon]]
     url = "https://twitter.com/username/"
     name = "twitter"
-    weight = 3
+    weight = 6
 
 [[menu.icon]]
     url = "https://www.youtube.com/channel/UCmO6IflVC626XI790VSO7MA?view_as=subscriber"
     name = "youtube"
-    weight = 4
+    weight = 5
 
 [[menu.icon]]
     url = "https://www.facebook.com/matheusa4/"
     name = "facebook"
-    weight = 5
+    weight = 4
 
  [[menu.icon]]
     url = "https://www.instagram.com/th1araujo/"
     name = "instagram"
-    weight = 6
+    weight = 3
 
 [[menu.icon]]
     url = "https://open.spotify.com/user/12142437138"
     name = "spotify"
-    weight = 7
+    weight = 2
 
 [[menu.icon]]
     url = "https://www.last.fm/user/th1araujo"
     name = "lastfm"
-    weight = 8
+    weight = 1
