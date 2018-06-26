@@ -18,7 +18,9 @@ O Grupo PET Computação da UFCG (outrora Universidade Federal da Paraíba - UFP
 O Grupo PET Computação da UFCG continua trabalhando com a tríade Ensino, Pesquisa e Extensão, de maneira indissociável, para atingir o principal objetivo do programa: melhorar o curso no qual está inserido e a sociedade como um todo.
 O PET Computação marcou a vida de vários alunos, ex-alunos, professores e funcionários do curso de Ciência da Computação da UFCG, e a seguir apresentaremos depoimentos de algumas pessoas que passaram pelo PET:
 
-{{<youtube q_3VAvdBvrQ&t>}}
+
+{{<youtube q_3VAvdBvrQ>}}
+
 
 
 ### Seu comentário é importante!
